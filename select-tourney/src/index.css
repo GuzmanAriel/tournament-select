@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+  --bs-primary: 22, 27, 31;
+  --bs-primary-rgb:22, 27, 31;
+  --bs-body-color: #fff;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: "Poppins", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:rgb(var(--bs-primary));
+  color:#fff;
+}
+
+.table {
+  color: #fff;
+}
+
+a {
+  color:inherit;
+}
+img {
+  max-width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color:transparent
+}
+
+.navbar-dark .navbar-nav .nav-link, .navbar-user .fa-user, .nav-link, a:hover, .nav-link:hover, .nav-link:focus{
+  color:#fff;
+  font-size: inherit;
+}
+
+.navbar-dark .navbar-collapse-user .navbar-nav .nav-link {
+  font-size: 18px;
+}
+
+a:visited{ 
+  color:#fff;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.navbar-collapse-user {
+  min-width: 190px;
+  position: absolute;
+  right: 0;
+  top: 110px;
+  background: rgb(var(--bs-primary));
+  padding: 15px 20px;
+  border-radius:5px;
+  -webkit-box-shadow: -8px 6px 11px 1px rgba(22,27,31,0.37);
+-moz-box-shadow: -8px 6px 11px 1px rgba(22,27,31,0.37);
+box-shadow: -8px 6px 11px 1px rgba(22,27,31,0.37);
+}
+
+.ts-form {
+  max-width:500px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 5rem;
+  padding: 20px;
+}
+
+header {
+  -webkit-box-shadow: -1px 6px 11px 1px rgba(22,27,31,0.37);
+-moz-box-shadow: -1px 6px 11px 1px rgba(22,27,31,0.37);
+box-shadow: -1px 6px 11px 1px rgba(22,27,31,0.37);
+}
+
+.btn-primary{
+  background: rgb(var(--bs-primary));
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn-primary:hover{
+  background: #fff;
+  color: rgb(var(--bs-primary));
+  border: 1px solid rgb(var(--bs-primary))
+}
+
+.ts-form a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+
+.ts-form a:hover, .ts-form a:focus, .ts-form a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.ts-alignment {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right:20px;
+}
+
+.ts-create-tournament {
+  margin-top: 50px;
+  display: flex;
+  justify-content: end;
+}
+
+.ts-form label {
+  font-size: 20px;
+}
+
+.ts-dashboard { 
+  margin-top: 100px;
+}
+
+.ts-dashboard ul {
+  background:#404447;
+  border-radius: 999px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.primary-cta {
+  background: #FAD703;
+  color: #161B1F;
+  border: 1px solid #FAD703;
+}
+
+.primary-cta:hover {
+  background: #161B1F;
+  color: #FAD703;
+  border: 1px solid #FAD703;
+}
+
+ .primary-cta.create-tournament {
+  font-weight: bold;
+ }
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background: transparent;
+  border-radius: none;
+  background: #FAD703;
+  color:#161B1F;
+  
+}
+
+.nav-tabs .nav-link {
+  font-weight: bold;
+  font-size: 25px;
+  border:none;
+  color:#FFF;
+  margin-right: 20px;
+}
+
+.nav-tabs.pool-tabs .nav-link {
+  font-size: 18px;
+}
+
+.nav-tabs .nav-link:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background: transparent;
+  background: #FAD703;
+  color:#000;
+}
+
+.card-body {
+  padding:0;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.card-bottom {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(22, 27, 31, .8);
+    width: 100%;
+    margin-bottom: 0!important;
+    padding: 10px 20px;
+}
+
+.card-image {
+  height: 350px;
+  border-radius: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom:0;
+}
+
+.calendar-icon {
+   width: 12px;
+   margin-right:8px;
+   margin-bottom:3px;
+}
+.location-icon {
+  width: 12px;
+  margin-right: 8px;
+  margin-bottom: 2px;
+}
+
+.elimination-icon {
+  width:15px;
+  margin-right: 8px;
+  margin-bottom: 1px;
+}
+
+.team-icon {
+  width: 18px;
+  margin-right: 8px;
+  margin-bottom: 1px;
+}
+
+.calendar-icon svg, .location-icon svg, .team-icon svg, .elimination-icon svg{
+  fill: #FAD703;
+}
+
+.card-date-time {
+  font-size:14px;
+}
+
+.card-status {
+  background: #FAD703;
+  color: #161B1F;
+  border-radius: 999999px;
+  padding: 6px 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom:10px;
+  width: max-content;
+  font-size: 15px;
+}
+
+
+.card-current-data {
+  border-radius: 999999px;
+  padding: 6px 10px;
+  font-weight: bold;
+  border: 1px solid #dee2e6;
+  color: #dee2e6;
+  width: max-content;
+  font-size: 15px;
+}
+
+.card-view-details {
+  color:#FAD703;
+  text-decoration: none;
+  font-size:18px;
+}
+
+.card-view-details span {
+  margin-right: 5px;
+}
+
+.card-view-details:visited {
+  color:#FAD703;
+  text-decoration: none;
+  font-size:15px;
+}
+
+.card-view-details:hover {
+  color:#FAD703;
+  
+  font-size:15px;
+}
+
+.card-link:hover .card-view-details {
+    text-decoration: underline;
+}
+
+.card-link img { 
+  transition: all 1s;
+  object-fit: cover;
+}
+
+.card-link:hover img {
+  transform: scale(1.2, 1.2);
+}
+
+.card-current-data__winner {
+  color:#FAD703;
+  font-weight: bold;
+}
+
+.card-first-place {
+  margin-right: 5px;
+}
+
+
+
+.react-datepicker-wrapper {
+  display: block;
+}
+
+.react-datepicker-wrapper input{
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 10px 5px 35px;
+}
+
+.react-datepicker-wrapper svg {
+  fill: white; 
+  margin-right: 2px;
+}
+
+textarea.form-control {
+  min-height: calc(8.5em + .75rem + 2px);
+}
+
+.form-prizes .form-prizes-yes{
+  margin-right: 10px;
+}
+
+.form-prizes span {
+  margin-left: 5px;
+}
+
+.form-prizes label, .form-prizes input {
+  cursor: pointer;
+}
+
+.location-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+.tournament-details {
+  height: 400px;
+  padding: 0;
+}
+
+.tournament-details__heading {
+  z-index: 2;
+  top: 30%;
+  text-align: center;
+}
+
+.full-overlay {
+  position: absolute;
+  width:100%;
+  height:100%;
+  background-color: rgba(22, 27, 31, .7);
+  top:0;
+}
+
+.tournament-details__heading h1 {
+  font-size: 45px;
+}
+
+.tournament-details__heading h2 {
+  font-size: 32px;
+}
+
+.tournament-details__prizes {
+  display: flex;
+  justify-content: center;
+}
+
+.tournament-details__prizes div {
+  background: #282D31;
+  border-radius: 999px;
+  padding: 10px 10px;
+  margin-right: 10px;
+}
+
+.tournament-details__details {
+  margin-top: 60px;
+}
+
+.slider-item  img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.slider-item  h3{
+  font-size: 45px;
+  color: #FAD703;
+}
+
+.slider-item  p{
+  font-size: 30px;
+
+}
+
+.slider-item .calendar-icon {
+  width: 20px;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.slider-item .calendar-icon svg{
+  fill:#fff;
+}
+
+.slider-item__date {
+  margin-bottom: 10px;
+}
+
+.purse-icon {
+  width: 20px;
+  display: inline-block;
+}
+
+.purse-icon svg {
+  fill: #FFF;
+}
+
+.ts-select-tournaments {
+  margin-top: 60px;
+}
+
+.accordion-header button{
+
+  font-size: 22px;
+}
+
+.accordion-button:not(.collapsed), .accordion-item:last-of-type .accordion-button.collapsed, .accordion-button  {
+  background-color: #404447;
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed):after, .accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+}
+
+.accordion-item {
+  background: transparent;
+}
+
+.matches .match {
+  background: #fff;
+  color:#404447;
+}
+
+.matches .table{
+  color:#404447;
+}
+
+.ts-back-button {
+  margin-left: 3em!important;
+  margin-top: 20px;
+}
+
+
+@media (min-width: 768px) { 
+
+  .card-status {
+    margin-top:0;
+    margin-bottom:0px;
+  }
+
+  .card-view-details, .card-view-details:visited, .card-view-details:hover{
+    font-size:18px;
+  }
+
+  .card-bottom {
+    padding: 20px;
+}
+}
+

@@ -1,0 +1,12 @@
+# Root .gitignore
+
+# Node
+node_modules/
+.env
+npm-debug.log*
+
+# React build
+select-tourney/build/
+
+# Mac system files
+.DS_Store

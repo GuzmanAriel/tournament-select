@@ -1,0 +1,592 @@
+{
+  "tournaments": [
+    {
+      "id": 0,
+      "image": "https://vblimages.blob.core.windows.net/images/2b822002-9725-4843-b7a1-3f96e6b7619d.png",
+      "name": "Jason's Birthday Tournament",
+      "date_utc": "2025-05-17T00:00:00Z",
+      "start_time": "9:00am",
+      "location": "Zilker Park",
+      "tournament_type": "BYO4",
+      "total_teams": 10,
+      "playoff_elimination_type": "Single Elimination",
+      "pool_number": 2,
+      "playoff_bracket_number": 1,
+      "purse": "3.1K and Up!",
+      "prizes": true,
+      "first_place_prize": "$1000 and gift card",
+      "second_place_prize": "$500 and gift card",
+      "third_place_prize": "$100",
+      "additional_notes": "We will be in the far side of Zilker park, parking is available in the lot across the park or accross the street",
+      "is_featured": true,
+      "status": "upcoming",
+      "inPlayoffs": true
+    },
+    {
+      "id": 1,
+      "image": "https://picsum.photos/id/123/1200/400",
+      "name": "First Tournament",
+      "date_utc": "2025-04-20T00:00:00Z",
+      "start_time": "9:00am",
+      "location": "Auditorium Shores",
+      "tournament_type": "BYO3",
+      "total_teams": 12,
+      "playoff_elimination_type": "Single Elimination",
+      "pool_number": 2,
+      "playoff_bracket_number": 1,
+      "prizes": true,
+      "first_place_prize": "$1000 and gift card",
+      "second_place_prize": "$500 and gift card",
+      "third_place_prize": "$100",
+      "additional_notes": "We will be in the far side of Zilker park, parking is available in the lot across the park or accross the street",
+      "is_featured": false,
+      "status": "upcoming",
+      "inPlayoffs": false
+    }
+  ],
+  "teams": [
+    { "id": 0, "tournamentId": 0, "team_name": "Team 1", "team_captain": "Ariel Guzman" },
+    { "id": 1, "tournamentId": 0, "team_name": "Team 2", "team_captain": "Jason Euresti" },
+    { "id": 2, "tournamentId": 0, "team_name": "Tims Team", "team_captain": "Tim Stockmar" },
+    { "id": 3, "tournamentId": 0, "team_name": "Evans Team", "team_captain": "Evan John" },
+    { "id": 4, "tournamentId": 0, "team_name": "The Smashers", "team_captain": "Lena Park" },
+    { "id": 5, "tournamentId": 0, "team_name": "Block Party", "team_captain": "Carlos Mendes" },
+    { "id": 6, "tournamentId": 0, "team_name": "Spike Squad", "team_captain": "Riley Chen" },
+    { "id": 7, "tournamentId": 0, "team_name": "Dig Dug", "team_captain": "Priya Desai" },
+    { "id": 8, "tournamentId": 0, "team_name": "Net Ninjas", "team_captain": "Jordan Smith" },
+    { "id": 9, "tournamentId": 0, "team_name": "Volley Llamas", "team_captain": "Nico Rivera" },
+    { "id": 10, "tournamentId": 1, "team_name": "Smash Tactics", "team_captain": "Reese Patel" },
+    { "id": 11, "tournamentId": 1, "team_name": "Beach Bashers", "team_captain": "Morgan Reese" },
+    { "id": 12, "tournamentId": 1, "team_name": "Net Warriors", "team_captain": "Sky Harper" },
+    { "id": 13, "tournamentId": 1, "team_name": "Sun Smashers", "team_captain": "Drew Daniels" },
+    { "id": 14, "tournamentId": 1, "team_name": "Spike Typhoon", "team_captain": "Peyton Rivers" },
+    { "id": 15, "tournamentId": 1, "team_name": "Block Busters", "team_captain": "Jess Lane" },
+    { "id": 16, "tournamentId": 1, "team_name": "Ace Avengers", "team_captain": "Jamie Lee" },
+    { "id": 17, "tournamentId": 1, "team_name": "Grill Setters", "team_captain": "Eli Marsh" },
+    { "id": 18, "tournamentId": 1, "team_name": "Power Diggers", "team_captain": "Cameron Lake" },
+    { "id": 19, "tournamentId": 1, "team_name": "Set to Kill", "team_captain": "Chris Nolan" },
+    { "id": 20, "tournamentId": 1, "team_name": "Thunder Spikers", "team_captain": "Alex Morgan" },
+    { "id": 21, "tournamentId": 1, "team_name": "Rally Rockets", "team_captain": "Toni Vega" }
+  ],
+  "pools": [
+    {
+      "id": 0,
+      "tournamentId": 0,
+      "pool_id": "A",
+      "teamIds": [8, 6, 4, 5, 2],
+      "matches": []
+    },
+    {
+      "id": 1,
+      "tournamentId": 0,
+      "pool_id": "B",
+      "teamIds": [7, 9, 3, 0, 1],
+      "matches": []
+    },
+    {
+      "id": 2,
+      "tournamentId": 1,
+      "pool_id": "A",
+      "teamIds": [10, 11, 12, 13, 14, 15],
+      "teams": [
+        {
+          "team_name": "Smash Tactics",
+          "wins": 3,
+          "losses": 2,
+          "sets_won": 8,
+          "sets_lost": 6,
+          "points_scored": 217,
+          "points_allowed": 216,
+          "place": 1
+        },
+        {
+          "team_name": "Spike Typhoon",
+          "wins": 3,
+          "losses": 2,
+          "sets_won": 7,
+          "sets_lost": 6,
+          "points_scored": 219,
+          "points_allowed": 219,
+          "place": 2
+        },
+        {
+          "team_name": "Beach Bashers",
+          "wins": 3,
+          "losses": 2,
+          "sets_won": 6,
+          "sets_lost": 6,
+          "points_scored": 196,
+          "points_allowed": 198,
+          "place": 3
+        },
+        {
+          "team_name": "Net Warriors",
+          "wins": 2,
+          "losses": 3,
+          "sets_won": 6,
+          "sets_lost": 6,
+          "points_scored": 204,
+          "points_allowed": 197,
+          "place": 4
+        },
+        {
+          "team_name": "Sun Smashers",
+          "wins": 2,
+          "losses": 3,
+          "sets_won": 6,
+          "sets_lost": 7,
+          "points_scored": 214,
+          "points_allowed": 212,
+          "place": 5
+        },
+        {
+          "team_name": "Block Busters",
+          "wins": 2,
+          "losses": 3,
+          "sets_won": 4,
+          "sets_lost": 6,
+          "points_scored": 175,
+          "points_allowed": 183,
+          "place": 6
+        }
+      ],
+      "matches": [
+        {
+          "id": 1,
+          "team1": "Smash Tactics",
+          "team2": "Beach Bashers",
+          "sets": [[18, 16], [15, 21], [10, 11]],
+          "winner": "Beach Bashers"
+        },
+        {
+          "id": 2,
+          "team1": "Smash Tactics",
+          "team2": "Net Warriors",
+          "sets": [[17, 21], [20, 17], [11, 10]],
+          "winner": "Smash Tactics"
+        },
+        {
+          "id": 3,
+          "team1": "Smash Tactics",
+          "team2": "Sun Smashers",
+          "sets": [[18, 16], [15, 20], [8, 7]],
+          "winner": "Smash Tactics"
+        },
+        {
+          "id": 4,
+          "team1": "Smash Tactics",
+          "team2": "Spike Typhoon",
+          "sets": [[21, 18], [17, 19], [7, 8]],
+          "winner": "Spike Typhoon"
+        },
+        {
+          "id": 5,
+          "team1": "Smash Tactics",
+          "team2": "Block Busters",
+          "sets": [[21, 16], [19, 16]],
+          "winner": "Smash Tactics"
+        },
+        {
+          "id": 6,
+          "team1": "Beach Bashers",
+          "team2": "Net Warriors",
+          "sets": [[17, 16], [19, 16]],
+          "winner": "Beach Bashers"
+        },
+        {
+          "id": 7,
+          "team1": "Beach Bashers",
+          "team2": "Sun Smashers",
+          "sets": [[16, 21], [19, 16], [14, 8]],
+          "winner": "Beach Bashers"
+        },
+        {
+          "id": 8,
+          "team1": "Beach Bashers",
+          "team2": "Spike Typhoon",
+          "sets": [[15, 20], [18, 19]],
+          "winner": "Spike Typhoon"
+        },
+        {
+          "id": 9,
+          "team1": "Beach Bashers",
+          "team2": "Block Busters",
+          "sets": [[15, 21], [15, 18]],
+          "winner": "Block Busters"
+        },
+        {
+          "id": 10,
+          "team1": "Net Warriors",
+          "team2": "Sun Smashers",
+          "sets": [[21, 18], [18, 15]],
+          "winner": "Net Warriors"
+        },
+        {
+          "id": 11,
+          "team1": "Net Warriors",
+          "team2": "Spike Typhoon",
+          "sets": [[15, 19], [19, 15], [13, 14]],
+          "winner": "Spike Typhoon"
+        },
+        {
+          "id": 12,
+          "team1": "Net Warriors",
+          "team2": "Block Busters",
+          "sets": [[18, 17], [20, 15]],
+          "winner": "Net Warriors"
+        },
+        {
+          "id": 13,
+          "team1": "Sun Smashers",
+          "team2": "Spike Typhoon",
+          "sets": [[20, 17], [20, 21], [14, 13]],
+          "winner": "Sun Smashers"
+        },
+        {
+          "id": 14,
+          "team1": "Sun Smashers",
+          "team2": "Block Busters",
+          "sets": [[18, 16], [21, 16]],
+          "winner": "Sun Smashers"
+        },
+        {
+          "id": 15,
+          "team1": "Spike Typhoon",
+          "team2": "Block Busters",
+          "sets": [[17, 19], [19, 21]],
+          "winner": "Block Busters"
+        }
+      ]
+
+    },
+    {
+      "id": 3,
+      "tournamentId": 1,
+      "pool_id": "B",
+      "teamIds": [16, 17, 18, 19, 20, 21],
+      "teams": [
+        {
+          "team_name": "Ace Avengers",
+          "wins": 5,
+          "losses": 0,
+          "sets_won": 10,
+          "sets_lost": 3,
+          "points_scored": 231,
+          "points_allowed": 200,
+          "place": 1
+        },
+        {
+          "team_name": "Power Diggers",
+          "wins": 3,
+          "losses": 2,
+          "sets_won": 7,
+          "sets_lost": 6,
+          "points_scored": 218,
+          "points_allowed": 213,
+          "place": 2
+        },
+        {
+          "team_name": "Thunder Spikers",
+          "wins": 3,
+          "losses": 2,
+          "sets_won": 6,
+          "sets_lost": 6,
+          "points_scored": 184,
+          "points_allowed": 192,
+          "place": 3
+        },
+        {
+          "team_name": "Grill Setters",
+          "wins": 2,
+          "losses": 3,
+          "sets_won": 6,
+          "sets_lost": 7,
+          "points_scored": 208,
+          "points_allowed": 207,
+          "place": 4
+        },
+        {
+          "team_name": "Set to Kill",
+          "wins": 1,
+          "losses": 4,
+          "sets_won": 5,
+          "sets_lost": 8,
+          "points_scored": 205,
+          "points_allowed": 218,
+          "place": 5
+        },
+        {
+          "team_name": "Rally Rockets",
+          "wins": 1,
+          "losses": 4,
+          "sets_won": 4,
+          "sets_lost": 8,
+          "points_scored": 193,
+          "points_allowed": 209,
+          "place": 6
+        }
+      ], 
+      "matches": [
+        {
+          "id": 16,
+          "team1": "Ace Avengers",
+          "team2": "Grill Setters",
+          "sets": [[15, 16], [20, 18], [13, 9]],
+          "winner": "Ace Avengers"
+        },
+        {
+          "id": 17,
+          "team1": "Ace Avengers",
+          "team2": "Power Diggers",
+          "sets": [[17, 21], [21, 20], [14, 8]],
+          "winner": "Ace Avengers"
+        },
+        {
+          "id": 18,
+          "team1": "Ace Avengers",
+          "team2": "Set to Kill",
+          "sets": [[20, 16], [20, 21], [15, 8]],
+          "winner": "Ace Avengers"
+        },
+        {
+          "id": 19,
+          "team1": "Ace Avengers",
+          "team2": "Thunder Spikers",
+          "sets": [[20, 15], [17, 15]],
+          "winner": "Ace Avengers"
+        },
+        {
+          "id": 20,
+          "team1": "Ace Avengers",
+          "team2": "Rally Rockets",
+          "sets": [[19, 18], [20, 15]],
+          "winner": "Ace Avengers"
+        },
+        {
+          "id": 21,
+          "team1": "Grill Setters",
+          "team2": "Power Diggers",
+          "sets": [[18, 15], [19, 18]],
+          "winner": "Grill Setters"
+        },
+        {
+          "id": 22,
+          "team1": "Grill Setters",
+          "team2": "Set to Kill",
+          "sets": [[16, 19], [16, 20]],
+          "winner": "Set to Kill"
+        },
+        {
+          "id": 23,
+          "team1": "Grill Setters",
+          "team2": "Thunder Spikers",
+          "sets": [[21, 15], [16, 17], [10, 11]],
+          "winner": "Thunder Spikers"
+        },
+        {
+          "id": 24,
+          "team1": "Grill Setters",
+          "team2": "Rally Rockets",
+          "sets": [[18, 15], [18, 20], [13, 9]],
+          "winner": "Grill Setters"
+        },
+        {
+          "id": 25,
+          "team1": "Power Diggers",
+          "team2": "Set to Kill",
+          "sets": [[15, 19], [20, 16], [14, 11]],
+          "winner": "Power Diggers"
+        },
+        {
+          "id": 26,
+          "team1": "Power Diggers",
+          "team2": "Thunder Spikers",
+          "sets": [[16, 15], [19, 15]],
+          "winner": "Power Diggers"
+        },
+        {
+          "id": 27,
+          "team1": "Power Diggers",
+          "team2": "Rally Rockets",
+          "sets": [[17, 19], [20, 17], [15, 12]],
+          "winner": "Power Diggers"
+        },
+        {
+          "id": 28,
+          "team1": "Set to Kill",
+          "team2": "Thunder Spikers",
+          "sets": [[16, 21], [18, 15], [8, 9]],
+          "winner": "Thunder Spikers"
+        },
+        {
+          "id": 29,
+          "team1": "Set to Kill",
+          "team2": "Rally Rockets",
+          "sets": [[17, 19], [16, 18]],
+          "winner": "Rally Rockets"
+        },
+        {
+          "id": 30,
+          "team1": "Thunder Spikers",
+          "team2": "Rally Rockets",
+          "sets": [[18, 16], [18, 15]],
+          "winner": "Thunder Spikers"
+        }
+      ]
+
+    }
+  ],
+  "brackets": [
+    {
+      "id": 0,
+      "tournamentId": 0,
+      "type": "single",
+      "matches": [
+        {
+          "id": 1,
+          "nextMatchId": 5,
+          "tournamentRoundText": "Round 1",
+          "startTime": "2025-05-17T09:00:00Z",
+          "state": "SCHEDULED",
+          "participants": [
+            { "id": "p1", "name": "Team 1", "isWinner": false },
+            { "id": "p2", "name": "Team 2", "isWinner": false }
+          ]
+        },
+        {
+          "id": 2,
+          "nextMatchId": 5,
+          "tournamentRoundText": "Round 1",
+          "startTime": "2025-05-17T09:30:00Z",
+          "state": "SCHEDULED",
+          "participants": [
+            { "id": "p3", "name": "Tims Team", "isWinner": false },
+            { "id": "p4", "name": "Evans Team", "isWinner": false }
+          ]
+        },
+        {
+          "id": 3,
+          "nextMatchId": 6,
+          "tournamentRoundText": "Round 1",
+          "startTime": "2025-05-17T10:00:00Z",
+          "state": "SCHEDULED",
+          "participants": [
+            { "id": "p5", "name": "The Smashers", "isWinner": false },
+            { "id": "p6", "name": "Block Party", "isWinner": false }
+          ]
+        },
+        {
+          "id": 4,
+          "nextMatchId": 6,
+          "tournamentRoundText": "Round 1",
+          "startTime": "2025-05-17T10:30:00Z",
+          "state": "SCHEDULED",
+          "participants": [
+            { "id": "p7", "name": "Spike Squad", "isWinner": false },
+            { "id": "p8", "name": "Dig Dug", "isWinner": false }
+          ]
+        },
+        {
+          "id": 5,
+          "nextMatchId": 7,
+          "tournamentRoundText": "Semifinals",
+          "startTime": "2025-05-17T11:00:00Z",
+          "state": "SCHEDULED",
+          "participants": []
+        },
+        {
+          "id": 6,
+          "nextMatchId": 7,
+          "tournamentRoundText": "Semifinals",
+          "startTime": "2025-05-17T11:30:00Z",
+          "state": "SCHEDULED",
+          "participants": []
+        },
+        {
+          "id": 7,
+          "nextMatchId": null,
+          "tournamentRoundText": "Finals",
+          "startTime": "2025-05-17T12:00:00Z",
+          "state": "SCHEDULED",
+          "participants": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "tournamentId": 1,
+      "type": "single",
+      "matches": [
+        {
+          "id": 1,
+          "nextMatchId": 5,
+          "tournamentRoundText": "Quarterfinals",
+          "startTime": "2025-04-20T09:00:00Z",
+          "state": "SCHEDULED",
+          "participants": [
+            { "id": "p1", "name": "Smash Tactics", "isWinner": false },
+            { "id": "p2", "name": "Grill Setters", "isWinner": false }
+          ]
+        },
+        {
+          "id": 2,
+          "nextMatchId": 5,
+          "tournamentRoundText": "Quarterfinals",
+          "startTime": "2025-04-20T09:30:00Z",
+          "state": "SCHEDULED",
+          "participants": [
+            { "id": "p3", "name": "Power Diggers", "isWinner": false },
+            { "id": "p4", "name": "Beach Bashers", "isWinner": false }
+          ]
+        },
+        {
+          "id": 3,
+          "nextMatchId": 6,
+          "tournamentRoundText": "Quarterfinals",
+          "startTime": "2025-04-20T10:00:00Z",
+          "state": "SCHEDULED",
+          "participants": [
+            { "id": "p5", "name": "Thunder Spikers", "isWinner": false },
+            { "id": "p6", "name": "Net Warriors", "isWinner": false }
+          ]
+        },
+        {
+          "id": 4,
+          "nextMatchId": 6,
+          "tournamentRoundText": "Quarterfinals",
+          "startTime": "2025-04-20T10:30:00Z",
+          "state": "SCHEDULED",
+          "participants": [
+            { "id": "p7", "name": "Spike Typhoon", "isWinner": false },
+            { "id": "p8", "name": "Ace Avengers", "isWinner": false }
+          ]
+        },
+        {
+          "id": 5,
+          "nextMatchId": 7,
+          "tournamentRoundText": "Semifinals",
+          "startTime": "2025-04-20T11:00:00Z",
+          "state": "SCHEDULED",
+          "participants": []
+        },
+        {
+          "id": 6,
+          "nextMatchId": 7,
+          "tournamentRoundText": "Semifinals",
+          "startTime": "2025-04-20T11:30:00Z",
+          "state": "SCHEDULED",
+          "participants": []
+        },
+        {
+          "id": 7,
+          "nextMatchId": null,
+          "tournamentRoundText": "Finals",
+          "startTime": "2025-04-20T12:00:00Z",
+          "state": "SCHEDULED",
+          "participants": []
+        }
+      ]
+    }    
+  ]
+
+}
